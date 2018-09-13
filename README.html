@@ -1,42 +1,20 @@
 <html>
 <body>
-<h3>Plugin Builder Results</h3>
-
-Congratulations! You just built a plugin for QGIS!<br/><br />
-
-<div id='help' style='font-size:.9em;'>
-Your plugin <b>LCCS3_BasicCoder_3</b> was created in:<br>
-&nbsp;&nbsp;<b>C:/TNprodotti/QGis3_Plugins/LCCS3basicCoder3/Sources\lccs3_basiccoder_3</b>
-<p>
-Your QGIS plugin directory is located at:<br>
-&nbsp;&nbsp;<b>C:/Users/Simone/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins</b>
-<p>
-<h3>What's Next</h3>
-<ol>
-    <li>In your plugin directory, compile the resources file using pyrcc5 (simply run <b>make</b> if you have automake or use <b>pb_tool</b>)
-    <li>Test the generated sources using <b>make test</b> (or run tests from your IDE)
-    <li>Copy the entire directory containing your new plugin to the QGIS plugin directory (see Notes below)
-    <li>Test the plugin by enabling it in the QGIS plugin manager
-    <li>Customize it by editing the implementation file <b>lccs3_basiccoder_3.py</b>
-    <li>Create your own custom icon, replacing the default <b>icon.png</b>
-    <li>Modify your user interface by opening <b>lccs3_basiccoder_3_dialog_base.ui</b> in Qt Designer
-</ol>
-Notes:
+<div id="readme" class="readme blob instapaper_body">
+    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-lccs3basiccoder3" class="anchor" aria-hidden="true" href="#lccs3basiccoder3"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>LCCS3basicCoder3</h1>
+<p>LCCS3 Basic Coder 3 - QGis 3 Plugin</p>
+<p><b>LCCS3 Basic Coder</b> is devoted to make easy the coding of geographical features on the basis of the classes of a LCCS3 legend.
+The main features are:</p>
 <ul>
-    <li>You can use the <b>Makefile</b> to compile and deploy when you
-        make changes. This requires GNU make (gmake). The Makefile is ready to use, however you 
-        will have to edit it to add addional Python source files, dialogs, and translations.
-    <li>You can also use <b>pb_tool</b> to compile and deploy your plugin. Tweak the <i>pb_tool.cfg</i> file included with your plugin as you add files. Install <b>pb_tool</b> using 
-        <i>pip</i> or <i>easy_install</i>. See <b>http://loc8.cc/pb_tool</b> for more information.
+<li>selection and loading of a LCCS3 legend</li>
+<li>display of the list of LCCS3 classes</li>
+<li>selection (and activation) of the vector layer containing the features to be coded</li>
+<li>selection of the column (in the attributes table) to archive the LCCS3 codes</li>
+<li>coding selected features</li>
 </ul>
+<p>LCCS3 is the last version of the <b>Land Cover Classification System (LCCS)</b> developed by FAO and UNEP in 1998 to facilitate the understanding of the classes of land cover regardless of the scale of mapping, the type of coverage, method of data collection, or geographic location.</p>
+<p>LCCS3 is an implementation of <b>Land Cover Meta Language (LCML)</b>, become a standard ISO in 2012 with the identification 19144-2:2012. The LCML provides a common reference structure for the comparison and integration of data for any generic land cover classification system, and describes different land cover classification systems based on the physiognomic aspects.</p>
+</article>
 </div>
-<div style='font-size:.9em;'>
-<p>
-For information on writing PyQGIS code, see <b>http://loc8.cc/pyqgis_resources</b> for a list of resources.
-</p>
-</div>
-<p>
-&copy;2011-2018 GeoApt LLC - geoapt.com 
-</p>
 </body>
 </html>

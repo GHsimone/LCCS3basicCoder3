@@ -10,13 +10,13 @@
 name=LCCS3 Basic Coder 3
 qgisMinimumVersion=3.0
 description=The plugin loads a LCCS3 legend, creates a form with all LCCS3 classes and allows the user to code selected features
-version=1.0
+version=1.0.1
 author=Simone Maffei
 email=simone.maffei@gmail.com
 
 about=LCCS3 Basic Coder 3 is the updated version for QGis 3.* of the older LCCS3 Basic Coder plugin. It is devoted to make easy the coding of geographical features on the basis of the classes of a LCCS3 legend. The main features are: - selection and loading of a LCCS3 legend - display of the list of LCCS3 classes - selection (and activation) of the vector layer containing the features to be coded - selection of the column (in the attributes table) to archive the LCCS3 codes - coding selected features LCCS3 is the last version of the Land Cover Classification System (LCCS) developed by FAO and UNEP in 1998 to facilitate the understanding of the classes of land cover regardless of the scale of mapping, the type of coverage, method of data collection, or geographic location. LCCS3 is an implementation of Land Cover Meta Language (LCML), become a standard ISO in 2012 with the identification 19144-2:2012. The LCML provides a common reference structure for the comparison and integration of data for any generic land cover classification system, and describes different land cover classification systems based on the physiognomic aspects.
 
-tracker=https://github.com/GHsimone/LCCS3basicCoder3
+tracker=https://github.com/GHsimone/LCCS3basicCoder3/issues
 repository=https://github.com/GHsimone/LCCS3basicCoder3
 # End of mandatory metadata
 
@@ -24,6 +24,8 @@ repository=https://github.com/GHsimone/LCCS3basicCoder3
 
 # Uncomment the following line and add your changelog:
 changelog=Plugin versions:
+    2018/09/14 v.1.0.1
+    - redirected the bugs tracker link
     2018/09/11 v.1.0
     - porting to 3.* QGIS versions
     2015/05/15 v.0.4.2
